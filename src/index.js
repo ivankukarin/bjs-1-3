@@ -12,6 +12,6 @@ const calculateSum = () => (
     x * y + 5 * z + x - 1
 );
 
-let result = calculateSum();
+let result = `Результат равен ${calculateSum()}`;
 
 console.log(result);
